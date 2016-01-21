@@ -13,6 +13,7 @@
 		D6052D711C4FD5B300B0282A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6052D701C4FD5B300B0282A /* Assets.xcassets */; };
 		D6052D741C4FD5B300B0282A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6052D721C4FD5B300B0282A /* LaunchScreen.storyboard */; };
 		D6052D7C1C502BC300B0282A /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6052D7B1C502BC300B0282A /* FactModel.swift */; };
+		D64513351C5130C700B6F26E /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64513341C5130C700B6F26E /* ColorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D6052D731C4FD5B300B0282A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6052D751C4FD5B300B0282A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6052D7B1C502BC300B0282A /* FactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		D64513341C5130C700B6F26E /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D6052D721C4FD5B300B0282A /* LaunchScreen.storyboard */,
 				D6052D751C4FD5B300B0282A /* Info.plist */,
 				D6052D7B1C502BC300B0282A /* FactModel.swift */,
+				D64513341C5130C700B6F26E /* ColorModel.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 				D6052D7C1C502BC300B0282A /* FactModel.swift in Sources */,
 				D6052D6C1C4FD5B300B0282A /* ViewController.swift in Sources */,
 				D6052D6A1C4FD5B300B0282A /* AppDelegate.swift in Sources */,
+				D64513351C5130C700B6F26E /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +257,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FunFacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.atlante-vtc.FunFacts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -264,6 +269,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FunFacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fr.atlante-vtc.FunFacts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,6 +295,7 @@
 				D6052D7A1C4FD5B300B0282A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
